@@ -7,4 +7,3 @@ print("Enter 2 to play against the AI")
 selection = int(sys.stdin.readline())
 
 if selection == 1:
-    
