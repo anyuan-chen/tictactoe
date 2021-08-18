@@ -8,6 +8,7 @@ class Game_engine:
             print("Invalid move. There is already a piece at that location.")
             return False
         self.board[x][y] = player
+        return True
 
     def checkWin(self, x, y, player):
         def checkVerticalWin():
