@@ -10,6 +10,7 @@ selection = int(sys.stdin.readline())
 
 if selection == 1:
     s_instance = Singleplayer()
+    s_instance.play()
 
 if selection == 2:
     m_instance = Multiplayer()
